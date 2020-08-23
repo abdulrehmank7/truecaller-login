@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "98558920973",
+    "firebase_url": "https://roz-assignment.firebaseio.com",
+    "project_id": "roz-assignment",
+    "storage_bucket": "roz-assignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98558920973:android:0c2990f48294113d570844",
+        "android_client_info": {
+          "package_name": "com.arkapp.rozassingment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98558920973-c896kk5i550c2gbiovngnq6iujc97n3k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arkapp.rozassingment",
+            "certificate_hash": "ff9934e9e3cbdfeb270edefa23380bc238241668"
+          }
+        },
+        {
+          "client_id": "98558920973-dno8019cm5ugr61dd7ktchcegv1td6r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATHnOrt9mDOdExSxWXhtbVSWOCYCuxw1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98558920973-dno8019cm5ugr61dd7ktchcegv1td6r5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/bungee"
+        android:text="@string/roz_app"
+        android:textColor="@color/colorSurface"
+        android:textSize="58sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSlogan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tag_line"
+        android:textColor="@color/colorSurface"
+        app:layout_constraintEnd_toEndOf="@+id/tvAppName"
+        app:layout_constraintStart_toStartOf="@+id/tvAppName"
+        app:layout_constraintTop_toBottomOf="@+id/tvAppName" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btLogout"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_margin="18dp"
+        android:paddingStart="38dp"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryCustomDark"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="25dp"
+        app:icon="@drawable/ic_logout"
+        app:iconGravity="end"
+        app:iconSize="38dp"
+        app:iconTint="@color/colorPrimaryCustomDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:rippleColor="@color/colorPrimary" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

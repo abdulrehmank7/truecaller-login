@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Roz Assingment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="roz_app">Roz App</string>
+    <string name="tag_line">Earn Money, Post any Task, Do any Task</string>
+    <string name="continue_with_true_caller">Continue With Truecaller</string>
+    <string name="contine_with_phone">Contine With Phone</string>
+
+    <string name="partnerKey">VkiDYa179aa97c74a4ff8ac72682205b0677e</string>
+</resources>
